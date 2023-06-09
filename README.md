@@ -14,7 +14,7 @@
 
 ## App Purpose
 I built this basic JavaScript app to be used for learning. Feel free to use this repo to get started with JavaScript. 
-Visit a running demo of this app here: [Dad Jokes App](https://dad-jokes-mz8s.onrender.com)
+<!-- Visit a running demo of this app here: [Dad Jokes App](https://dad-jokes-mz8s.onrender.com) -->
 
 I also used this app in one of my JavaScript courses on Pluralsight. 
 You can find my Pluralsight author profile here: [Steve Buchanan on Pluralsight](https://www.pluralsight.com/authors/steve-buchanan).
