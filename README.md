@@ -1,4 +1,4 @@
-# Dad Jokes a JavaScript Based Web App
+# Dad Jokes - a JavaScript Based Web App
 
 **Introducing "Dad Jokes: The Ultimate Source of Cheesy Laughter!"**
 
