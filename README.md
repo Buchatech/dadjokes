@@ -32,7 +32,7 @@ This app consists of:
 I have tested two deployment options for deploying this app. These are:
 
 - This app can be deployed to the free tier on www.render.com with ease using these steps: [Deploy a Node Express App to Render](https://render.com/docs/deploy-node-express-app). 
-- This app can be containerized and deployed with ease to [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service) a cloud managed Kubernetes cluster with ease using these steps here: [Automated Deployments for AKS](https://learn.microsoft.com/en-us/azure/aks/automated-deployments).
+- This app can be containerized and deployed with ease to [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service) a cloud managed Kubernetes cluster using these steps here: [Automated Deployments for AKS](https://learn.microsoft.com/en-us/azure/aks/automated-deployments).
 
 **Be sure to visit my blog [www.buchatech.com](http://www.buchatech.com) to stay up to date on my adventures in tech!**
 
