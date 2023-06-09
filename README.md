@@ -13,8 +13,7 @@
 *Get ready to laugh!*
 
 ## App Purpose
-I built this app for a course about building a basic JavaScript app. This is a fun app that can be used for learning. 
-Feel free to use this code to get started with JavaScript. 
+I built this basic JavaScript app to be used for learning. Feel free to use this repo to get started with JavaScript. 
 
 ## App Architecture
 This app consists of:
