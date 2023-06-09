@@ -33,4 +33,4 @@ I have tested two deployment options for deploying this app. These are:
 
 **Be sure to visit my blog [www.buchatech.com](http://www.buchatech.com) to stay up to date on my adventures in tech!**
 
-*Happy Coding*
+*Happy Coding!*
