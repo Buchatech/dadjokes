@@ -29,7 +29,7 @@ This app consists of:
 <img width="700" alt="image" src="https://github.com/Buchatech/dadjokes/assets/22551494/70efed66-548e-468c-b323-06b47502e58d">
 
 ## App Deployment 
-This app requires a MySQL database. You will need to host the database somewhere. In the repo there are files with SQL code for creating the database, table, and for inserting the jokes. The folder path is dadjokes/setup /createdbandinsertjokes/
+This app requires a MySQL database. You will need to host the database somewhere. In the repo there are files with SQL code for creating the database, table, and for inserting the jokes. The folder path is dadjokes/setup/createdbandinsertjokes/
 
 - createDBandJokesTable.sql
 - insertJokes.sql
