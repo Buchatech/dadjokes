@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dadjokes61523
+  namespace: dadjokes61523-ns
+spec:
+  type: LoadBalancer
+  selector:
+    app: dadjokes61523
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
