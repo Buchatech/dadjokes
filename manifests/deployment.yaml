@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dadjokes61523
+  labels:
+    app: dadjokes61523
+  namespace: dadjokes61523-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dadjokes61523
+  template:
+    metadata:
+      labels:
+        app: dadjokes61523
+    spec:
+      containers:
+        - name: dadjokes61523
+          image: registrywysteb.azurecr.io/dadjokes61523img:latest
+          ports:
+            - containerPort: 80
