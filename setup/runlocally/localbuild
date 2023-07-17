@@ -1,1 +1,22 @@
-text
+#Use this file if you plan to run the app locally 
+Clone the app locally 
+
+From a terminal navigate into the root of projects folder
+
+# Create package.json file (Initialize the Node.js Project) 
+npm init -y
+
+# Install Express
+npm install --save express
+
+# Install Express Middleware / dependencies
+npm install --save body-parser
+npm install --save cors
+npm install --save mysql
+npm install --save nodemon 
+
+# Starts the nodeman tool from the dev script defined in the project’s package.json file
+npm run dev
+
+# Nodeman should be running but if want to Run the web app manually run
+node index.js
