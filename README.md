@@ -29,7 +29,7 @@ This app consists of:
 <img width="700" alt="image" src="https://github.com/Buchatech/dadjokes/assets/22551494/70efed66-548e-468c-b323-06b47502e58d">
 
 ## App Deployment 
-This app requires a MySQL database. You will need to host the database somewhere. In the repo there are files with SQL code for creating the database, table, and for inserting the jokes. The folder path is dadjokes/setup/createdbandinsertjokes/
+This app requires a MySQL database. You will need to host the database somewhere. In the repo there are files with SQL code for creating the database, table, and for inserting the jokes. The folder path is *dadjokes/setup/createdbandinsertjokes/*
 
 - createDBandJokesTable.sql
 - insertJokes.sql
@@ -38,6 +38,8 @@ I have tested two deployment options for deploying this app. These are:
 
 - This app can be deployed to the free tier on www.render.com with ease using these steps: [Deploy a Node Express App to Render](https://render.com/docs/deploy-node-express-app). 
 - This app can be containerized and deployed with ease to [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service) a cloud managed Kubernetes cluster using these steps here: [Automated Deployments for AKS](https://learn.microsoft.com/en-us/azure/aks/automated-deployments).
+
+- **Note:** If you want to run the app locally check out the steps in the *dadjokes/setup/runlocally/localbuild.txt* file.
 
 **Be sure to visit my blog [www.buchatech.com](http://www.buchatech.com) to stay up to date on my adventures in tech!**
 
