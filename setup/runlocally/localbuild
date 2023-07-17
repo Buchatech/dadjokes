@@ -6,6 +6,8 @@ From a terminal navigate into the root of projects folder
 # Create package.json file (Initialize the Node.js Project) 
 npm init -y
 
+// npm install should be run for the first time to ensure all dependencies are installed for node.js before starting the app. 
+
 # Install Express
 npm install --save express
 
@@ -15,8 +17,8 @@ npm install --save cors
 npm install --save mysql
 npm install --save nodemon 
 
-# Starts the nodeman tool from the dev script defined in the project’s package.json file
-npm run dev
+// To start the app using the standard method from the start script in the projects package.json file run:
+// npm start
 
-# Nodeman should be running but if want to Run the web app manually run
-node index.js
+// Starts the nodeman tool from the dev script defined in the project’s package.json file run:
+// npm run dev
