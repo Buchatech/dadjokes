@@ -3,9 +3,9 @@ const mysql = require('mysql');
 
 const db = mysql.createConnection({
   host: 'mysql12523.mysql.database.azure.com',
-  user: 'USER',
-  password: 'PWD',
-  database: 'DB'
+  user: 'postgres',
+  password: '#44birdsonthetrack',
+  database: 'jokesdbv6'
 });
 
 db.connect((error) => {
