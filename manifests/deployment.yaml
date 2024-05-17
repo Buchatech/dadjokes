@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: adaksdeploy01
+  labels:
+    app: adaksdeploy01
+  namespace: adaksdeploy01-ns
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: adaksdeploy01
+  template:
+    metadata:
+      labels:
+        app: adaksdeploy01
+    spec:
+      containers:
+        - name: adaksdeploy01
+          image: crazk8sehiebdpdv2i7fmty6.azurecr.io/image-adaksdeploy01:latest
+          ports:
+            - containerPort: 3000
