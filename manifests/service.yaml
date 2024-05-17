@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: dadjokesdeploy02
-  namespace: dadjokesdeploy02-ns
+  name: dadjokesdeploy03
+  namespace: dadjokesdeploy03-ns
 spec:
   type: LoadBalancer
   selector:
-    app: dadjokesdeploy02
+    app: dadjokesdeploy03
   ports:
     - protocol: TCP
-      port: 8080
-      targetPort: 8080
+      port: 80
+      targetPort: 80
